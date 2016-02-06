@@ -1,0 +1,9 @@
+#!/bin/sh
+
+for i in $1
+if [ $i -f ]
+then
+mv $i $2
+else
+mv $i $3
+fi

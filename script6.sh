@@ -1,5 +1,4 @@
 #!/bin/sh
-
 file="/etc/passwd"
 c=0
 d=0

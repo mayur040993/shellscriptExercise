@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 sum()
 {
@@ -15,7 +15,7 @@ echo "Argument is less than 2 ";
 else
 echo "Enter the Operator (+,-,/,*)";
 read a;
-while ( [ "$a" != "+" ] && [ "$a" != "-" ] && [ "$a" != "/" ] && [ "$a" != "*" ] ) 
+while [ "$a" != "+" ] && [ "$a" != "-" ] && [ "$a" != "/" ] && [ "$a" != "*" ]
 do
 echo "Please Enter the Appropriate Operator (+,-,/,*)";
 read a
